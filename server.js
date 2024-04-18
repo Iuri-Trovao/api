@@ -1,4 +1,4 @@
-import express from "express";
+import express, { json } from "express";
 import connection from "./dbConnection.js"
 import bodyParser from "body-parser";
 
@@ -16,7 +16,7 @@ app.post('/produto', async (req, res)=>{
         if(err){
             res.send(err)
         }else{
-            res.send(`requisição bem sucedida! ${results}`)
+            res.send(`requisição bem sucedida!}`)
         }
     })
 

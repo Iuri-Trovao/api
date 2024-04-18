@@ -1,5 +1,5 @@
 {
-  "name": "api express e mysql",
+  "name": "api",
   "version": "1.0.0",
   "description": "Minha primeira Api com node/express e mysql",
   "main": "server.js",
